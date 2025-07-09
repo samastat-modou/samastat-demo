@@ -1,10 +1,9 @@
 
 import streamlit as st
 from PIL import Image
-# Charger et afficher le logo
-logo = Image.open("assets/logo_samastat.png")  # place ton logo dans un dossier assets/
+# Afficher le logo
+logo = Image.open("logo.png")
 st.image(logo, width=120)
-
 import pandas as pd
 import numpy as np
 import plotly.express as px
