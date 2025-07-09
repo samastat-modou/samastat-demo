@@ -12,7 +12,7 @@ import plotly.express as px
 st.set_page_config(page_title="SamaStat", layout="wide")
 
 # En-tête
-st.title("📊 SamaStat - Veille Statistique Locale")
+st.title("📊 SamaStat - Veille Statistique Locale/SEN")
 st.markdown("Bienvenue sur SamaStat, la plateforme intelligente pour le suivi et la prévision des indicateurs territoriaux au Sénégal.")
 
 # Sidebar - sélection
