@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+
 st.set_page_config(page_title="Analyse des Données Scolaires", layout="wide")
 
 @st.cache_data
@@ -39,6 +40,11 @@ fig_corr = px.scatter(filtered_df, x="Study_Hours_per_Week", y="Final_Score",
                       size="Stress_Level (1-10)", color="Gender",
                       hover_data=["Department", "Sleep_Hours_per_Night"],
                       title="Effet des heures d'étude sur le score final (taille = stress)")
+fig_corr.update_layout(dragmode="zoom")
+fig_box = px.box(filtered_df, x="Department", y="Final_Score", color="Gender", title="Dispersion des scores par département")
+px.violin(filtered_df, y="Final_Score", x="Gender", box=True, points="all")
+px.line(filtered_df, x="Semester", y="Final_Score", animation_frame="Semester", color="Department")
+
 st.plotly_chart(fig_corr, use_container_width=True)
 
 st.markdown("---")
