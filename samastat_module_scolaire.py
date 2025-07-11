@@ -2,6 +2,10 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from PIL import Image
+# Afficher le logo
+logo = Image.open("logo.png")
+st.image(logo, width=120)
 
 
 st.set_page_config(page_title="Analyse des Données Scolaires", layout="wide")
