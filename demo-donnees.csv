@@ -1,0 +1,16 @@
+Région,Secteur,Indicateur,Année,Valeur,Source
+Kolda,Santé,Taux de mortalité infantile,2022,42,Enquête DHS
+Kolda,Santé,Couverture vaccinale (DTC3),2022,85,Programme santé régionale
+Kolda,Éducation,Taux de scolarisation (primaire),2022,92,Inspection académique
+Kolda,Agriculture,Rendement rizicole (tonnes/ha),2022,3.2,SAED
+Kolda,Emploi,Taux de chômage des jeunes,2022,18,ANSD
+Dakar,Santé,Taux de mortalité infantile,2022,28,Enquête DHS
+Dakar,Santé,Couverture vaccinale (DTC3),2022,91,Programme santé régionale
+Dakar,Éducation,Taux de scolarisation (primaire),2022,98,Inspection académique
+Dakar,Agriculture,Rendement maraîcher (kg/m²),2022,2.5,Service Agricole
+Dakar,Emploi,Taux de chômage des jeunes,2022,12,ANSD
+Tambacounda,Santé,Taux de mortalité infantile,2022,52,Enquête DHS
+Tambacounda,Santé,Couverture vaccinale (DTC3),2022,77,Programme santé régionale
+Tambacounda,Éducation,Taux de scolarisation (primaire),2022,88,Inspection académique
+Tambacounda,Agriculture,Rendement mil (tonnes/ha),2022,1.9,SAED
+Tambacounda,Emploi,Taux de chômage des jeunes,2022,21,ANSD
