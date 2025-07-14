@@ -12,7 +12,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="SamaStat SAED", layout="wide")
 
 # 🖼️ Affichage du logo dans la sidebar
-st.sidebar.image("logo_samastat.png", width=220)
+st.sidebar.image("logo.png", width=220)
 st.sidebar.title("🔐 Connexion sécurisée")
 
 # 🔐 Authentification basique
