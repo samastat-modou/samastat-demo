@@ -5,8 +5,9 @@ import os
 import pandas as pd
 
 # --- PARAMÈTRES ---
-LOGO_PATH = "logo.jpg"
+LOGO_PATH = "logo.png"
 USER_FILE = "users.json"
+
 
 COMMUNES = {
     "Dakar": {"Population": 1050000, "Taux Vaccination (%)": 75},
