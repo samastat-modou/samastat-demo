@@ -5,7 +5,7 @@ import os
 import pandas as pd
 
 # --- PARAMÈTRES ---
-LOGO_PATH = "samastat_logo.jpg"
+LOGO_PATH = "logo.jpg"
 USER_FILE = "users.json"
 
 COMMUNES = {
