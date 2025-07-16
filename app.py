@@ -7,7 +7,7 @@ from PIL import Image
 st.set_page_config(page_title="SamaStat", layout="wide")
 
 # --- LOGO ---
-logo = Image.open("assets/logo.png")
+logo = Image.open("logo.png")
 st.image(logo, width=200)
 
 # --- TITRE ---
