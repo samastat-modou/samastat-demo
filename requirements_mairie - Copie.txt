@@ -1,7 +1,0 @@
-streamlit
-folium
-streamlit-folium
-bcrypt
-pandas
-
-openpyxl
